@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`card test renders UI as expected 1`] = `
+<div
+  className="Card"
+>
+  <button
+    type="button"
+  >
+    delete
+  </button>
+  <h3>
+    new title
+  </h3>
+  <p>
+    new content
+  </p>
+</div>
+`;
+
+exports[`renders UI as expected 1`] = `
+<div
+  className="Card"
+>
+  <button
+    type="button"
+  >
+    delete
+  </button>
+  <h3>
+    new title
+  </h3>
+  <p>
+    new content
+  </p>
+</div>
+`;
