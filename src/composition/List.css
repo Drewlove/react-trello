@@ -5,6 +5,10 @@
   .List:not(:first-of-type) {
     margin-left: 8px;
   }
+
+  .List>header{
+    display: flex; 
+  }
   
   .List-header h2,
   .List-cards h3 {

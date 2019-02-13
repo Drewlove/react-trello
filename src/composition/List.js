@@ -7,13 +7,21 @@ export default function List(props) {
     <section className='List'>
       <header className='List-header'>
         <h2>{props.header}</h2>
+        <button
+      onClick={props.onAddCard}
+      type='button'>
+      add
+      </button>
       </header>
+
       <div className='List-cards'>
         {props.cards.map((card) =>
           <Card
             key={card.id}
+            id={card.id}
             title={card.title}
             content={card.content}
+            onDeleteItem = {props.onDeleteItem}
           />
         )}
         <button

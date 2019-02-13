@@ -1,22 +1,22 @@
 export default {
     lists: [
       {
-        id: '1',
+        id: '0',
         header: 'First list',
         cardIds: [ 'a', 'b', 'e', 'f', 'g', 'j', 'l', 'm' ],
       },
       {
-        id: '2',
+        id: '1',
         header: 'Second list',
         cardIds: ['b', 'c', 'd', 'f', 'h', 'i', 'k'],
       },
       {
-        id: '3',
+        id: '2',
         header: 'Third list',
         cardIds: [ 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm' ],
       },
       {
-        id: '4',
+        id: '3',
         header: 'Fourth list',
         cardIds: [ 'l', 'm' ],
       },
